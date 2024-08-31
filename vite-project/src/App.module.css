@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrapper {
   max-width: 70rem;
   margin: 2rem auto;
@@ -7,3 +8,16 @@
   gap: 2rem;
   align-items: flex-start;
 }
+=======
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  
+>>>>>>> 41c38b901c930083396a61db64e88867dc5e3789

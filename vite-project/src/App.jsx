@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Sidebar } from "./components/Sidebar";
 import { Header } from "./components/Header";
 
@@ -63,3 +64,20 @@ function App() {
 }
 
 export default App;
+=======
+import { Header } from "./components/Header";
+import styles from "./App.module.css";
+import "./global.css";
+import {Pages} from "./components/Pages";
+
+function App() {
+  return (
+    <>
+      <Header/>
+      <Pages/>
+    </>
+  )
+}
+
+export default App
+>>>>>>> 41c38b901c930083396a61db64e88867dc5e3789
