@@ -1,0 +1,98 @@
+.body {
+  background: var(--gray-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;      
+  background: var(--gray-100); 
+  text-align: center;   
+  margin: 3rem 10.5rem; 
+  border-radius: 3rem;
+  padding: 2rem;
+  line-height: 1.6;
+  font-size: 25px;
+}
+
+.Chapters {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.Chapters h3 {
+  color: var(--white);
+  font-size: 48px;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  top: 10rem; 
+  left: 1rem; 
+  transform: 
+  translateY(10rem);
+}
+
+.Pages {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Pages a {
+  color: var(--white);
+  border: 1px solid var(--blue-100);
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 0.25s, background-color 0.5s;
+}
+
+.PagesContainer a{
+  color: var(--white);
+  border: 1px solid var(--blue-100);
+  border-radius: 8px;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  justify-content: center; 
+  text-decoration: none;
+  transition: color 0.25s, background-color 0.5s;
+}
+
+.Start {
+  background: var(--green-200);
+}
+
+.End {
+  background: var(--red-200);
+}
+
+.Start:hover {
+  background: var(--green-200);
+  color: var(--white);
+}
+
+.End:hover {
+  background: var(--red-200);
+  color:var(--white)
+}
