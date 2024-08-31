@@ -1,0 +1,11 @@
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .video {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }

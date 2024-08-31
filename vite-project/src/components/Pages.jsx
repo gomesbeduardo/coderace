@@ -21,27 +21,29 @@ export function Pages() {
     return (
         <div id="Pages">
             {books.length > 0 ? (
-                books.map((book) => (
-                    book.capitulo.map(capitul => (
+                books.map((book, index) => (
+                    <div key={index}>
+                        {book.capitulo.map(capitul => (
                         <Fragment>
-                    <div className={styles.Chapters}>
-                        <h3>{capitul.titulo}</h3>
-                    </div>
-    
-                    <div className={styles.linkContainer}>
-                                <div className={styles.PagesContainer}>
-                                    <a href="#" className={styles.Start}><Play size={72} /></a>
-                                    <a href="#" className={styles.End}><Pause size={72} /></a>
-                                </div>
+                            <div className={styles.Chapters} key={capitul._id}>
+                                <h3>{capitul.titulo}</h3>   
                             </div>
-    
-                    <div className={styles.container}>
-                                <div id="Text">
-                                    <p>{capitul.conteudo}</p>
-                                </div>
+            
+                            <div className={styles.linkContainer}>
+                                        <div className={styles.PagesContainer}>
+                                            <a href="/videopage" className={styles.Start}><Play size={72} /></a>
+                                            <a href="#" className={styles.End}><Pause size={72} /></a>
+                                        </div>
+                                    </div>
+            
+                            <div className={styles.container}>
+                                        <div id="Text">
+                                            <p>{capitul.conteudo}</p>
+                                        </div>
+                            </div>
+                        </Fragment>
+                    ))}
                     </div>
-                </Fragment>
-                    ))
                 ))
             ): (
                 <p>Loading...</p>
