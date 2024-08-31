@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-.Header {
-  background: var(--gray-800);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.25rem 0;
-}
-
-.Header img {
-  height: 3rem;
-  margin: 0.2rem;
-}
-=======
 .Header {
     display: flex;
     justify-content: left;
@@ -57,4 +43,3 @@
 .Header .Perfil {
   margin-left: auto;
 }
->>>>>>> 41c38b901c930083396a61db64e88867dc5e3789

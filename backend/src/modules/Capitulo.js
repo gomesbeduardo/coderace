@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
-const CapituloSchema = mongoose.Schema({
-    titulo: {
-        type: String,
+const CapituloSchema = mongoose.Schema({ //Criando o modelo de capitulo
+    titulo: { //Criando a propriedade string sendo requerida
+        type: String, 
         required: true
     },
-    conteudo: {
+    conteudo: { //Criando o conteudo para 
         type: String,
         required: true
     },

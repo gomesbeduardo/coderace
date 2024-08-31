@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import styles from "./Header.module.css";
-
-import igniteLogo from "../assets/images/ignite-logo.svg";
-
-export function Header() {
-  return (
-    <header className={styles.Header}>
-      <img src={igniteLogo} alt="Logotipo do Ignite" />
-      <strong>Ignite Feed</strong>
-    </header>
-  );
-}
-=======
 import styles from "./Header.module.css";
 import {HouseSimple,Books,User} from "@phosphor-icons/react"
 
@@ -30,4 +16,3 @@ export function Header() {
     </header>
   );
 }
->>>>>>> 41c38b901c930083396a61db64e88867dc5e3789
